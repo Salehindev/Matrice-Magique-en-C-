@@ -1,9 +1,10 @@
 # Matrice-Magique-en-C-
 Un programme qui vérifie si une matrice est magique ou pas en langage C++.
 Programme:
+
 #include <iostream>
 using namespace std;
-// PROTOTYPES DES FONCTIONS
+
 void remplirMatrice(int mat[100][100], int n, int m);
 void displayMatrice(int mat[100][100], int n, int m);
 bool verifieCaracteristiques(int n, int m);
